@@ -1,6 +1,6 @@
 ## 30 Days of Code
 
-A New Daily Challenge for 30 days
+A New Daily Challenge for 30 days from [HackerRank](https://www.hackerrank.com)
 
 Challenge | Problem Statement | Solutions
 ----------|-------------------|----------
@@ -18,3 +18,19 @@ Challenge | Problem Statement | Solutions
 [Day 11: 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays/problem) | [markdown](src/Day_11/README.md) | [link](src/Day_11)
 [Day 12: Inheritance](https://www.hackerrank.com/challenges/30-2d-arrays/problem) | [markdown](src/Day_12/README.md) | [link](src/Day_12)
 [Day 13: Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem) | [markdown](src/Day_13/README.md) | [link](src/Day_13)
+[Day 14: Scope](https://www.hackerrank.com/challenges/30-scope/problem) | [markdown](src/Day_14/README.md) | [link](src/Day_14)
+[Day 15: Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem) | [markdown](src/Day_15/README.md) | [link](src/Day_15)
+[Day 16: Exceptions- String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem) | [markdown](src/Day_16/README.md) | [link](src/Day_16)
+[Day 17: More Exceptions](https://www.hackerrank.com/challenges/30-more-exceptions/problem) | [pdf](src/Day_17/Day17.pdf) | [link](src/Day_17)
+[Day 18: Queues and Stacks](https://www.hackerrank.com/challenges/30-queues-stacks/problem) | [pdf](src/Day_18/Day18.pdf) | [link](src/Day_18)
+[Day 19: Interfaces](https://www.hackerrank.com/challenges/30-interfaces/problem) | [pdf](src/Day_19/Day19.pdf) | [link](src/Day_19)
+[Day 20: Sorting](https://www.hackerrank.com/challenges/30-sorting/problem) | [pdf](src/Day_20/Day20.pdf) | [link](src/Day_20)
+[Day 21: Generics](https://www.hackerrank.com/challenges/30-generics/problem) | [markdown](src/Day_21/README.md) | [link](src/Day_21)
+[Day 22: Binary Search Tree](https://www.hackerrank.com/challenges/30-binary-search-trees/problem) | [pdf](src/Day_22/Day22.pdf) | [link](src/Day_22)
+[Day 23: BST Level-Order Traversal](https://www.hackerrank.com/challenges/30-binary-trees/problem) | [pdf](src/Day_23/Day23.pdf) | [link](src/Day_23)
+[Day 24: More Linked Lists](https://www.hackerrank.com/challenges/30-linked-list-deletion/problem) | [pdf](src/Day_24/Day24.pdf) | [link](src/Day_24)
+[Day 25: Running Time and Complexity](https://www.hackerrank.com/challenges/30-running-time-and-complexity/problem) | [pdf](src/Day_25/Day25.pdf) | [link](src/Day_25)
+[Day 26: Nested Logic](https://www.hackerrank.com/challenges/30-nested-logic/problem) | [pdf](src/Day_26/Day26.pdf) | [link](src/Day_26)
+[Day 27: Testing](https://www.hackerrank.com/challenges/30-testing/problem) | [markdown](src/Day_27/README.md) | [link](src/Day_27)
+[Day 28: RegEx, Patterns, and Intro to Databases](https://www.hackerrank.com/challenges/30-regex-patterns/problem) | [markdown](src/Day_28/README.md) | [link](src/Day_28)
+[Day 29: Bitwise AND](https://www.hackerrank.com/challenges/30-bitwise-and/problem) | [markdown](src/Day_29/README.md) | [link](src/Day_29)
