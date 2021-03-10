@@ -1,6 +1,6 @@
 # Day 14: Scope
-## Objective 
 
+## Objective
 The absolute difference between two integers,`a` and `b`, is written as `| a - b |` . The maximum absolute difference between two integers in a set of positive integers,`elements`, is the largest absolute difference between any two integers in `__elements`.
 
 The Difference class is started for you in the editor. It has a private integer array (`elements`) for storing `N`non-negative integers, and a public integer (`maximumDifference`) for storing the maximum absolute difference.
