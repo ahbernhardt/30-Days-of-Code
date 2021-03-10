@@ -1,38 +1,56 @@
-# Day 24: More Linked Lists
+# Day 26: Nested Logic
 
 ## Task
 
-A Node class is provided for you in the editor. A Node object has an integer data field, `data`, and a Node instance pointer, `next`, pointing to another node (i.e.: the next node in a list).<br>
-A removeDuplicates function is declared in your editor, which takes a pointer to the `head` node of a linked list as a parameter. Complete removeDuplicates so that it deletes any duplicate nodes from the list and returns the head of the updated list.
-**Note:** The `head` pointer may be null, indicating that the list is empty. Be sure to reset your `next`pointer when
-performing deletions to avoid breaking the list.
+Your local library needs your help! Given the expected and actual return dates for a library book, create a program that
+calculates the fine (if any). The fee structure is as follows:
+
+1. If the book is returned on or before the expected return date, no fine will be charged `(i.e.: fine = 0)`. 
+2. If the book is returned after the expected return day but still within the same calendar month and year as the expected return date,`fine = 15 Hackos x (the number of days late)`. 
+3. If the book is returned after the expected return month but still within the same calendar year as the expected return date, the `fine = 500 Hackos x (the number of days late)`. 
+4. If the book is returned after the calendar year in which it was expected, there is a fixed fine of `1000 Hackos`.
+
+#### Example
+`d1,m1,y1 = 12312014` returned date<br>
+`d2,m2,y2 = 112015` due date <br>
+The book is returned on time, so no fine is applied.<br>
+`d1,m1,y1 = 112015` returned date<br>
+`d2,m2,y2 = 12312014` due date <br>
+The book is returned in the following year, so the fine is a fixed 10000.
 
 ### Input Format
 
-You do not need to read any input from stdin. The following input is handled by the locked stub code and passed to the
-removeDuplicates function:<br>
-The first line contains an integer,`N`, the number of nodes to be inserted. The `N`subsequent lines each contain an integer describing the `data`value of a node being inserted at the list's tail.
+The first line contains `3` space-separated integers denoting the respective `day`,`month`, and `year`on which the book was actually returned.<br>
+The second line contains `3`space-separated integers denoting the respective`day`,`month`, and `year`and on which the book was expected to be returned (due date).
 
 **Constraints**
-- The data elements of the linked list argument will always be in non-decreasing order.
 
+- `1 ≤ D ≤ 31`
+- `1 ≤ M ≤ 12`
+- `1 ≤ Y ≤ 3000`
+- `It is guaranteed that the dates will be valid Gregorian calendar dates`
 ### Output Format
 
-Your removeDuplicates function should return the head of the updated linked list. The locked stub code in your editor
-will print the returned list to stdout.
+Print a single integer denoting the library fine for the book received as input.
+
 ```markdown
-Sample Input
-6 
-1 
-2 
-2 
-3 
-3 
-4
+Sample Input 
+STDIN        Function
+-----        --------
+9 6 2015     day = 9, month = 6, year = 2015 (date returned)
+6 6 2015     day = 6, month = 6, year = 2015 (date due)
 
 Sample Output 
-1 2 3 4 
+45
 ```
 ### Explanation
-`N = 6` , and our non-decreasing list is `{1, 2, 2, 3, 3, 4}`. The values `2` and `3` both occur twice in the list, so
-we remove the two duplicate nodes. We then return our updated (ascending) list, which is `{1, 2, 3, 4}`.
+
+Given the following return dates:<br>
+Returned: `D1 = 9, M1 = 6, Y1 = 2015` <br>
+Due: `D2 = 6, M2 = 6, Y2 = 2015` <br>
+Because `Y2 = Y1`, it is less than a year late.<br>
+Because `M2 = Y1`, it is less than a month late.<br>
+Because `D2 < Y1`, it was returned late (but still within the same month and year).<br>
+
+Per the library's fee structure, we know that our fine will be<br>
+`15 Hackos x (# days late)`. We then print the result of `15 x (D1- D2) = 15 x (9 - 6) = 45` as our output.
