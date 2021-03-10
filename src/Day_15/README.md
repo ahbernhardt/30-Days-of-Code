@@ -1,4 +1,5 @@
 # Day 15: Linked List
+
 ## Objective
 A Node class is provided for you in the editor. A Node object has an integer data field,`data`, and a Node instance pointer,`next`, pointing to another node (i.e.: the next node in the list).
 
@@ -36,4 +37,4 @@ Sample Output
 - `T = 4`, so your method will insert `4`nodes into an initially empty list. 
 -- First the code returns a new node that contains the
 data value `2`as the`head` of the list. Then create and insert nodes `3`,`4`, and `1` at the tail of the list.
-![explanation](explanation.png)
+![explanation](Day15_explanation.png)
