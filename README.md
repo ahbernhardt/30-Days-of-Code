@@ -27,7 +27,7 @@ Challenge | Problem Statement | Solutions
 [Day 20: Sorting](https://www.hackerrank.com/challenges/30-sorting/problem) | [markdown](src/Day_20/README.md) | [link](src/Day_20)
 [Day 21: Generics](https://www.hackerrank.com/challenges/30-generics/problem) | [markdown](src/Day_21/README.md) | [link](src/Day_21)
 [Day 22: Binary Search Tree](https://www.hackerrank.com/challenges/30-binary-search-trees/problem) | [markdown](src/Day_22/README.md) | [link](src/Day_22)
-[Day 23: BST Level-Order Traversal](https://www.hackerrank.com/challenges/30-binary-trees/problem) | [pdf](src/Day_23/Day23.pdf) | [link](src/Day_23)
+[Day 23: BST Level-Order Traversal](https://www.hackerrank.com/challenges/30-binary-trees/problem) | [markdown](src/Day_23/README.md) | [link](src/Day_23)
 [Day 24: More Linked Lists](https://www.hackerrank.com/challenges/30-linked-list-deletion/problem) | [pdf](src/Day_24/Day24.pdf) | [link](src/Day_24)
 [Day 25: Running Time and Complexity](https://www.hackerrank.com/challenges/30-running-time-and-complexity/problem) | [pdf](src/Day_25/Day25.pdf) | [link](src/Day_25)
 [Day 26: Nested Logic](https://www.hackerrank.com/challenges/30-nested-logic/problem) | [pdf](src/Day_26/Day26.pdf) | [link](src/Day_26)
