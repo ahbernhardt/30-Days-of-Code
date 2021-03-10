@@ -22,7 +22,7 @@ Challenge | Problem Statement | Solutions
 [Day 15: Linked List](https://www.hackerrank.com/challenges/30-linked-list/problem) | [markdown](src/Day_15/README.md) | [link](src/Day_15)
 [Day 16: Exceptions- String to Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem) | [markdown](src/Day_16/README.md) | [link](src/Day_16)
 [Day 17: More Exceptions](https://www.hackerrank.com/challenges/30-more-exceptions/problem) | [markdown](src/Day_17/README.md) | [link](src/Day_17)
-[Day 18: Queues and Stacks](https://www.hackerrank.com/challenges/30-queues-stacks/problem) | [pdf](src/Day_18/Day18.pdf) | [link](src/Day_18)
+[Day 18: Queues and Stacks](https://www.hackerrank.com/challenges/30-queues-stacks/problem) | [markdown](src/Day_18/README.md) | [link](src/Day_18)
 [Day 19: Interfaces](https://www.hackerrank.com/challenges/30-interfaces/problem) | [pdf](src/Day_19/Day19.pdf) | [link](src/Day_19)
 [Day 20: Sorting](https://www.hackerrank.com/challenges/30-sorting/problem) | [pdf](src/Day_20/Day20.pdf) | [link](src/Day_20)
 [Day 21: Generics](https://www.hackerrank.com/challenges/30-generics/problem) | [markdown](src/Day_21/README.md) | [link](src/Day_21)
