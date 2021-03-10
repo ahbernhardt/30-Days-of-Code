@@ -29,11 +29,9 @@ Sample Input
 Sample Output
 3
 ```
-
 ### Explanation
-
 The input forms the following BST:
-![bst_image](BST.png)
+![bst_image](BST_0.png)
 The longest root-to-leaf path is shown below:
-![bst1_image](BST1.png)
+![bst1_image](BST_1.png)
 There are`4`nodes in this path that are connected by `3`edges, meaning our BST's `height = 3`. Thus, we print `3`as our answer.
