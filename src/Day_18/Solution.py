@@ -24,7 +24,7 @@ class Solution:
 
 # read the string s
 s = input()
-# Create the Solution class object
+# Create the Solution.swift class object
 obj = Solution()
 
 l = len(s)

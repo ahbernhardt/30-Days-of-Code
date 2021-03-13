@@ -41,7 +41,7 @@ function main() {
   // read the string s
   var s = readLine();
   var len = s.length;
-  // create the Solution class object p
+  // create the Solution.swift class object p
   var obj = new Solution();
   //push/enqueue all the characters of string s to stack
   for (var i = 0; i < len; i++) {

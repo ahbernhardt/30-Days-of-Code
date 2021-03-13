@@ -34,7 +34,7 @@ public class Solution {
         // Convert input String to an array of characters:
         char[] s = input.toCharArray();
 
-        // Create a Solution object:
+        // Create a Solution.swift object:
         Solution p = new Solution();
 
         // Enqueue/Push all chars to their respective data structures:
